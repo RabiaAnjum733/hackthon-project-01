@@ -1,0 +1,85 @@
+ body {
+    font-family: 'Arial' sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 150px;
+}
+
+.resume-contatiner {
+    display: flex;
+    background-color: skyblue;
+    width: 80;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+}
+
+.left-section {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid palevioletred;
+}
+
+.profile-picture {
+    width: 250px;
+    height: 250px;
+    margin-top: 10%;
+    border-radius: 80%;
+    border-color: 5px solid magenta;
+    margin-bottom: 10px;
+}
+
+.cv-logo {
+   width: 200px;
+   height: 200px;
+   
+}
+
+h1 {
+    font-size: 50px;
+    margin: 30px 0;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 0 0 15px white;
+    margin-top: 5%;
+    margin-bottom: 6%;
+}
+
+ul {
+    list-style-type: full round;
+    padding: 60;
+    margin: 30px 0;
+}
+
+ul li {
+    margin: 8px 0;
+}
+
+.right-section {
+    padding: 40px;
+    width: 85%;
+}
+
+button {
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: darkgreen;
+} 
